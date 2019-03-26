@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^(index|about-us|events|contact|login|voting-poll|sign-up|news|logout|profile)$ $1.php [NC,L]
+RewriteRule ^song/([^/]*)$ song.php?name=$1 [NC,L]
